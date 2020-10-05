@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "oldgame"
+    }
+  },
+  "defaultProject": "oldgame",
+  "cli": {
+    "analytics": "db4b3e4f-a32c-4279-82cb-994e76af6530"
+  }
 }

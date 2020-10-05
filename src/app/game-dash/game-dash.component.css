@@ -1,0 +1,17 @@
+#board{
+    margin-left: 550px;
+}
+.btn{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(54, 36, 83);
+    outline: none;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+

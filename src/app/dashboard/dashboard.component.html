@@ -1,0 +1,25 @@
+<div>
+    <div class="btngame">
+        <div>
+            <button  type="end-game" class="btn" (click)="endGame()">Finalizar Jogo</button>
+        </div>
+        <div>
+            <button  type="new-game" class="btn" (click)="newGame()">Novo Jogo</button>
+        </div>
+        <div>
+            <div>
+                <div>
+                <button type="join-game"  (click)="startGame(id.value)">Iníciar Jogo</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div>
+        <input type="text" #id class="form-control" placeholder="Informe ID do Jogo">
+        <span>ID Jogo:{{gameId}}</span>
+    </div>
+    <span>{{gameWon()}}</span>
+    <div>
+        <app-game-dash></app-game-dash>
+    </div>
+</div>

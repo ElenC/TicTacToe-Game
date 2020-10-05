@@ -1,0 +1,14 @@
+<form>
+    <div class="form-group">
+        <label for="inputEmail">E-mail</label>
+        <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+        [(ngModel)]="email" placeholder="Digite seu E-mail">
+    </div>
+    <div class="form-group">
+        <label for="inputPassword">Senha</label>
+        <input type="password" name="password" class="form-control1" id="inputPassword"
+        [(ngModel)]="password" placeholder="Insira senha">
+    </div>
+    <button class="btn" (click)="logarEmail()">Entrar</button>
+    <a class="register-link" href="/register">Cadastrar</a>
+</form>

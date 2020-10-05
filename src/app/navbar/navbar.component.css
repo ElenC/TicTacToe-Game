@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+button{
+    background-color: rgb(146, 127, 165);
+    width: 50px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(170, 160, 189);
+}
