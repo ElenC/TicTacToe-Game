@@ -39,8 +39,8 @@ export class DashboardComponent implements OnInit {
   });
   
   this.games.winner$.subscribe(o => {
-    if (o === 'cat') {
-      this.gameInfo = "Cat's Scratch!";
+    if (o === 'empate') {
+      this.gameInfo = "Jogo Empatou";
     } else {
       this.gameInfo = (o === this.auth.getUserId() ? "You Won!" : "You Lost!");
     }
